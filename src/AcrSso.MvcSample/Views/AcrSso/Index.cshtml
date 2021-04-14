@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "ACR SSO";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<br />
+<h4>Click @Html.ActionLink("Sign in", "SignIn", "AcrSso") to login with ACR SSO.</h4>
+<br />
+<br />
+@if (User.Identity.IsAuthenticated)
+{
+    <h4>Access Token:</h4>
+    <p>@ViewBag.AccessToken</p>
+    <h4>ID Token:</h4>
+    <p>@ViewBag.IdToken</p>
+    <h4>Refresh Token:</h4>
+    <p>@ViewBag.RefreshToken</p>
+}
