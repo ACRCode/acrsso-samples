@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="AcrSso.WebFormsSample.About" %>
+﻿<%@ Page Title="ACR SSO" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AcrSso.aspx.cs" Inherits="AcrSso.WebFormsSample.AcrSso" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
