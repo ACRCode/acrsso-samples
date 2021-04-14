@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcrSso.WpfSample", "AcrSso.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcrSso.WebFormsSample", "AcrSso.WebFormsSample\AcrSso.WebFormsSample.csproj", "{EFA2AF8A-6F74-4509-A83F-3DBC1A037CC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcrSso.MvcSample", "AcrSso.MvcSample\AcrSso.MvcSample.csproj", "{8C0A24D6-8E37-48AA-8AB0-AAF34A0F816F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EFA2AF8A-6F74-4509-A83F-3DBC1A037CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA2AF8A-6F74-4509-A83F-3DBC1A037CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA2AF8A-6F74-4509-A83F-3DBC1A037CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0A24D6-8E37-48AA-8AB0-AAF34A0F816F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0A24D6-8E37-48AA-8AB0-AAF34A0F816F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0A24D6-8E37-48AA-8AB0-AAF34A0F816F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0A24D6-8E37-48AA-8AB0-AAF34A0F816F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
