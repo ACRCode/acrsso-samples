@@ -103,6 +103,9 @@ namespace AcrSso.WpfSample
             _oidcClient.Options.RedirectUri  = RedirectUrl;
             _oidcClient.Options.Browser      = browser;
 
+            _oidcClient.Options.Policy.Discovery.AdditionalEndpointBaseAddresses.Clear();
+            _oidcClient.Options.Policy.Discovery.AdditionalEndpointBaseAddresses.Add(AdditionalEndpoints);
+
             var result = await _oidcClient.LoginAsync(new LoginRequest { BrowserDisplayMode = DisplayMode.Visible});
 
             if (result.IsError)
